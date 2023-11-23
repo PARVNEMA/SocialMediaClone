@@ -761,3 +761,119 @@ float: right;
 .profile-footer .copyright-msg{
  justify-content: flex-start;
 }
+#showMorelink{
+   display: none;
+ }
+/* ----------------------------responsive website---------------- */
+@media screen and (max-width: 768px) {
+   /* .navbar {
+     flex-direction: column;
+     width: 100%;
+
+   } */
+ 
+   /* .navbar-left,
+   .navbar-centre,
+   .navbar-right {
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+   } */
+   
+   /* .navbar-left{
+      margin-left: -75px;
+   } */
+   /* .navbar-right{
+      margin-left: 75vw;
+   } */
+   /* .navbar-centre ul {
+     flex-direction:column;
+   } */
+ 
+   /* .navbar-centre ul li {
+     margin: 8px -8px;
+   
+   } */
+   /* .navbar-centre ul li:last-child{
+      margin: 6px -23px;
+   } */
+ 
+   .search-box {
+     margin: 10px 0;
+     width: auto; 
+     background: transparent;
+     padding: 0;
+     
+   }
+   .search-box input{
+      width: 0;
+      padding: 0;
+   }
+   .navbar-centre ul li a span{
+      display: none;
+   }
+ 
+   .navbar-centre ul li a{
+      padding-right: 0;
+      margin: 5px;
+   }
+   .search-box img{
+      width: 0;
+   }
+   .nav-profile-img{
+      width: 30px;
+   }
+   .container{
+      padding: 15px 3%;
+   }
+   .left-sidebar,.right-sidebar{
+  flex-basis: 100%;
+  position: relative;
+  top: unset;
+   }
+   .main-content{
+      flex-basis: 100%; 
+   }
+   .post-stats div{
+      margin: 2px 0;
+   }
+   .post-activity-link span{
+ display: none
+   }
+   .post-activity-link  img{
+      margin-right: 0;
+   }
+   .profile-main,.profile-sidebar{
+      flex-basis: 100%;
+   }
+   .profile-container{
+      font-size: 14px;
+   }
+   .profile-pic{
+      width: 100px;
+      margin-top: -50px;
+   }
+   .profile-desc{
+      font-size: 14px;
+   }
+   #showMorelink{
+      display: block;
+      width: fit-content;
+      margin: 10px auto;
+      font-size: 14px;
+      cursor: pointer;
+   }
+   .sidebar-activity{
+      display: none;
+   }
+   .sidebar-activity.open-activity{
+      display: block;
+   }
+   .online{
+      margin-top: 8px;
+      margin-left: 2px;
+   }
+   
+ }
+
+ 
